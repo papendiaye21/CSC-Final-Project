@@ -1,6 +1,8 @@
 # Predicting Diamond Prices with Regression Models
 **CSC 310 Final Project**
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/papendiaye21/diamond-price-prediction/blob/main/CSC310_Final_Project_Diamonds.ipynb)
+
 A machine learning project that builds and compares five regression models to predict diamond prices in USD from the classic ggplot2 diamonds dataset.
 
 ---
