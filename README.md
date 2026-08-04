@@ -9,7 +9,7 @@ A machine learning project that builds and compares five regression models to pr
 
 ## Problem Statement
 
-A diamond's price is determined by its size and quality grades — the "4 Cs": carat, cut, color, and clarity — along with physical measurements. This project answers three questions:
+A diamond's price is determined by its size and quality grades the "4 Cs": carat, cut, color, and clarity along with physical measurements. This project answers three questions:
 
 1. Can we accurately predict diamond price from physical and quality attributes?
 2. Which attributes matter most?
@@ -39,7 +39,7 @@ A diamond's price is determined by its size and quality grades — the "4 Cs": c
 
 - **Size dominates price.** Carat and physical dimensions (x, y, z) account for the vast majority of a diamond's price.
 - **Non-linear models win.** Linear regression tops out at ~89% R², while the Random Forest reaches ~98% — an 8-point gap that's statistically significant.
-- **Quality is a size-adjusted correction.** Raw correlations suggest better grades are *cheaper* (counterintuitive), but this is a confounding effect: high-grade diamonds tend to be small. Once the model controls for size, better clarity and color correctly *increase* the predicted price — as confirmed by SHAP values.
+- **Quality is a size-adjusted correction.** Raw correlations suggest better grades are *cheaper* (counterintuitive), but this is a confounding effect: high-grade diamonds tend to be small. Once the model controls for size, better clarity and color correctly *increase* the predicted price as confirmed by SHAP values.
 - **Depth, table, and cut barely matter** for price prediction once size and quality grades are accounted for.
 
 ---
